@@ -1,0 +1,15 @@
+# This is a basic workflow that is manually triggered
+
+name: 0la-mundo
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+jobs:
+  hola-mundo:
+    runs-on: ubuntu-latest
+    steps:
+    # Runs a single command using the runners shell
+    - name: Hola mundo
+      run: echo "Hello ola mundo"
