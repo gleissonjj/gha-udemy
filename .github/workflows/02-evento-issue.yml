@@ -6,6 +6,8 @@ name: 02 - Evento issue
 # or API.
 on: 
   push: 
+    paths-ignore:
+      - '*.md'
   issues: 
     types:
     - opened
